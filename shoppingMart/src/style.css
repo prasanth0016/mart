@@ -32,6 +32,24 @@
     height: 350px;
 }
 
+/* SHOP */
+.w250{
+    width: 240px;
+}
+
+/* CART */
+.w700{
+    width: 700px;
+}
+.w300{
+    width: 300px;
+}
+.posi{
+    position: absolute;
+    top: 280px;
+    left: 800px;
+}
+
 /* MObile Screen */
 @media (min-width:0px) and (max-width:426px) {
     .activelink {
@@ -72,5 +90,9 @@
     }
     .slidemaindiv{
         height: 150px;
+    }
+    /* SHOP */
+    .w250{
+        width: 150px;
     }
 }

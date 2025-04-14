@@ -814,3 +814,7 @@ export const products = [
   },
 
 ];
+
+
+export const cartCount = 0
+export const cart = [];

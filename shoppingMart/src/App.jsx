@@ -5,13 +5,13 @@ import Navigation from "./Navigation"
 
 
 function App() {
-
+  
 
   return (
     <>
-      <Header />
-      <Navigation />
-      <Footer />
+      <Header/>
+      <Navigation/>
+      <Footer/>
     </>
   )
 }
