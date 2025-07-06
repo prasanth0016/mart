@@ -43,7 +43,8 @@ const productSlice = createSlice({
             }
         },
         removeFromCart: (state, action) => {
-            const productsToRemove = state.cart.filter((item) => item.id != action.payload.id)
+          state.cartCount=(state.cartCount-action.payload.cartQuantity)
+            state.cart = state.cart.filter((item) => item.id != action.payload.id)
         }
     }
 })
