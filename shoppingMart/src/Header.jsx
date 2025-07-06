@@ -1,9 +1,18 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { cartCount } from './data/products'
+import productSlice, { addToCart, productReducer } from './ProductsSlice';
+import { useSelector } from 'react-redux';
+import { store } from './Store';
+
 // import { Link } from 'react-router'
 
 export default function Header() {
+  console.log("productslICE.REDUCER ===> FROM header  ", productReducer);
+  console.log("actions ===>FROM header", addToCart);
+  console.log("product slice from header====>", productSlice);
+  console.log("store from header==",store);
+  
+const cartCount=useSelector((state)=>state.product.cartCount);
   return (
     <>
       <header className='shadow sticky-top bg-white'>

@@ -4,6 +4,14 @@
     border-radius: 2px;
     /* padding: 2px; */
 }
+.br-4px{
+    border-radius: 100px;
+    border: none;
+}
+.br-4px:hover{
+    background-color: dodgerblue;
+    color: white;
+}
 
 .cartnum {
     background-color: goldenrod;
@@ -32,12 +40,12 @@
     height: 350px;
 }
 
-/* SHOP */
+/*---SHOP--- */
 .w250{
     width: 240px;
 }
 
-/* CART */
+/*---CART---*/
 .w700{
     width: 700px;
 }
@@ -49,6 +57,9 @@
     top: 280px;
     left: 800px;
 }
+
+
+
 
 /* MObile Screen */
 @media (min-width:0px) and (max-width:426px) {
