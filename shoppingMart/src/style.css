@@ -63,6 +63,7 @@
 
 /* MObile Screen */
 @media (min-width:0px) and (max-width:426px) {
+    /* Header */
     .activelink {
         background-color: purple;
         color: white;
@@ -106,4 +107,19 @@
     .w250{
         width: 150px;
     }
+    /*---CART---*/
+.w700{
+    width: 300px;
+}
+.w300{
+    width: 120px;
+}
+.posi{
+    position: absolute;
+    top: 280px;
+    left: 800px;
+}
+.fontMobile{
+    font-size: 8px;
+}
 }
