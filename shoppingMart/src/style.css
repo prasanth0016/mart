@@ -4,11 +4,13 @@
     border-radius: 2px;
     /* padding: 2px; */
 }
-.br-4px{
+
+.br-4px {
     border-radius: 100px;
     border: none;
 }
-.br-4px:hover{
+
+.br-4px:hover {
     background-color: dodgerblue;
     color: white;
 }
@@ -36,23 +38,26 @@
 .fontSize {
     font-size: 32px;
 }
-.slidemaindiv{
+
+.slidemaindiv {
     height: 350px;
 }
 
 /*---SHOP--- */
-.w250{
+.w250 {
     width: 240px;
 }
 
 /*---CART---*/
-.w700{
+.w700 {
     width: 700px;
 }
-.w300{
+
+.w300 {
     width: 300px;
 }
-.posi{
+
+.posi {
     position: absolute;
     top: 280px;
     left: 800px;
@@ -63,6 +68,7 @@
 
 /* MObile Screen */
 @media (min-width:0px) and (max-width:426px) {
+
     /* Header */
     .activelink {
         background-color: purple;
@@ -100,26 +106,32 @@
         font-size: 8px;
         font-weight: bold;
     }
-    .slidemaindiv{
+
+    .slidemaindiv {
         height: 150px;
     }
+
     /* SHOP */
-    .w250{
+    .w250 {
         width: 150px;
     }
+
     /*---CART---*/
-.w700{
-    width: 300px;
-}
-.w300{
-    width: 120px;
-}
-.posi{
-    position: absolute;
-    top: 280px;
-    left: 800px;
-}
-.fontMobile{
-    font-size: 8px;
-}
+    .w700 {
+        width: 300px;
+    }
+
+    .w300 {
+        width: 120px;
+    }
+
+    .posi {
+        position: absolute;
+        top: 280px;
+        left: 800px;
+    }
+
+    .fontMobile {
+        font-size: 8px;
+    }
 }

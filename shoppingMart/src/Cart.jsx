@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { addToCart, minusProductQuantity, removeFromCart } from './ProductsSlice';
 
 export default function Cart() {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    // window.scrollTo({ top: 0, behavior: 'smooth' })
     const cartProducts = useSelector((state) => state.product.cart);
     const totalAmount = useSelector((state) => state.product.totalAmount)
     const dispatch = useDispatch();

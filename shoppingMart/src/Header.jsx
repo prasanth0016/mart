@@ -18,7 +18,7 @@ const cartCount=useSelector((state)=>state.product.cartCount);
       <header className='shadow sticky-top bg-white'>
         <div className='d-flex justify-content-between align-items-center pad'>
           <div>
-            <Link to='/' className='text-decoration-none text-dark fontSize'><i className="fa-solid fa-shop"></i> s-Mart</Link>
+            <Link to='/' className='text-decoration-none text-dark fontSize'><i className="fa-solid fa-shop"></i>s-Mart</Link>
           </div>
           <div className='d-flex gap-3 fw-bold fontForMobile'>
             <NavLink to='/home' className={(e) => e?.isActive ? "activelink text-decoration-none" : "text-dark text-decoration-none"}>Home</NavLink>
