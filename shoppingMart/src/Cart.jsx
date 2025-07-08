@@ -41,7 +41,7 @@ export default function Cart() {
                         <h3 className='fontMobile'>{totalAmount}</h3>
                     </div>
                     <p>total items {cartCount}</p>
-                    {cartCount>0?<button className='w-100 bg-success text-white border rounded'>Buy now</button>:<button onClick={() => navigate('/shop')} className='w-100 bg-primary text-white border rounded'>Go to shop</button>}
+                    {cartCount>0?<button className='w-100 bg-success text-white border rounded'>Buy now</button>:<button onClick={() => navigate('/shop')} className='w-100 bg-primary text-white border rounded'>Go To Shop</button>}
                 </div>
             </div>
 
