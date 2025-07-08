@@ -72,6 +72,9 @@ const productSlice = createSlice({
                     })
                 }
             }
+            if(action.payload.cartQuantity == 1){
+            state.cart = state.cart.filter((item) => item.id != action.payload.id)
+            }
         }
     }
 })

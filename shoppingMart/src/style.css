@@ -63,8 +63,14 @@
     left: 800px;
 }
 
+.highlight {
+    border: 0.75px solid rgb(223, 217, 217);
+    border-radius: 2px;
+}
 
-
+.highlight:hover {
+    border: 0.75px solid blue;
+}
 
 /* MObile Screen */
 @media (min-width:0px) and (max-width:426px) {
@@ -133,5 +139,26 @@
 
     .fontMobile {
         font-size: 8px;
+    }
+    .cartPlus{
+        position: relative;
+        left: 7px;
+        bottom: 2px;
+        width: 4px;
+        height: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* align-content: center; */
+    }
+    .cartMinus{
+        position: relative;
+        bottom: 2px;
+        right: 6px;
+        width: 4px;
+        height: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

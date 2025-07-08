@@ -250,7 +250,7 @@ export const products = [
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 253,
+    price: 53000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
