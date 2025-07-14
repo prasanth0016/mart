@@ -18,7 +18,7 @@ export default function Cart() {
             <div className='d-flex w-100 p-5 gap-2 justify-content-center fontMobile'>
                 <div className='w700 d-flex flex-column gap-1'>
                     {cartCount==0?<h3 className='text-center text-danger'>Empty</h3>:
-                        cartProducts.map((product, index) => <div onClick={() => navigate('/productInfo')} className='w-100 d-flex justify-content-center align-items-center highlight' key={index}>
+                        cartProducts.map((product, index) => <div onClick={() => navigate(`/productInfo/${product.id}`)} className='w-100 d-flex justify-content-center align-items-center highlight' key={index}>
                             <img className='w-25' src={product.imgUrl} alt="productImage" />
                             <p className='w-50 fontMobile'>{product.description.slice(0, 150)}</p>
                             <div className='d-flex align-items-center flex-column gap-2 w-25'>

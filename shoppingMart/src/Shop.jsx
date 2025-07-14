@@ -14,8 +14,8 @@ export default function Shop() {
         <>
             <h1 className='bg-primary text-center text-white mt-5'>shop</h1>
             <div className='w-100 d-flex flex-wrap gap-1 justify-content-center mt-5'>
-                {products.map((product, index) => <div onClick={() => navigate('/productInfo')} className='d-flex justify-content-center align-items-center flex-column w250 border shadow' key={index}>
-                    <img className='w-100 h-50' src={product.imgUrl} alt="" onClick={() => navigate('/productInfo')} />
+                {products.map((product, index) => <div onClick={() => navigate(`/productInfo/${product.id}`)} className='d-flex justify-content-center align-items-center flex-column w250 border shadow' key={index}>
+                    <img className='w-100 h-50' src={product.imgUrl} alt="" onClick={() => navigate(`/productInfo/${product.id}`)} />
                     <h6>{product.productName}</h6>
                     <h6>₹ {product.price}</h6>
                     <p>{product.shortDesc.slice(0, 25)}...</p>
